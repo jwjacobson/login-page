@@ -6,35 +6,58 @@
     width: 400px;
     margin: auto;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 } */
 
-/* div {
+div {
     text-align: center;
-} */
+    font-size: small;
+}
 
 #logo {
     width: 200px;
     margin: auto;
     margin-top: 20px;
+    display: block;
 }
 
 #signin {
+    text-align: left;
     margin: auto;
     margin-top: 50px;
     width: 400px;
-    border: solid 0.5px gray;
+    border: solid 0.5px lightslategray;
+    border-radius: 2px;
     font-family: sans-serif;
+    padding-left: 10px;
+    /* padding-bottom: 20px; */
+}
+
+input {
+    margin-top: 8px;
+}
+
+.button {
+    height: 25px;
+    margin: auto;
+    width: 390px;
+    padding: 0px;
+    border: 0.5px solid;
+    border-radius: 2px;
+
 }
 
 ul {
     list-style-type: none;
+    margin: auto;
+    width: 350px;
 }
 
 li{
     float: center;
     display: inline;
     padding: 10px;
+    font-size: small;
 }
 
 a {
